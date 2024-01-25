@@ -74,6 +74,10 @@
             display:flex;
             justify-content:center;
         }
+        .RM{
+            display:flex;
+            justify-content:flex-start;
+        }
         .GT{
             
             display:flex;
@@ -123,23 +127,23 @@
         }
         #se1{
             background-color:rgb(254, 245, 236);
-            width: 180px;
+            width: 280px;
             
         }
         #se2{
-            background-color: rgb(255, 240, 243);width: 180px;
+            background-color: rgb(255, 240, 243);width: 280px;
         }
         #se3{
-            background-color: rgb(231, 250, 250);width: 180px;
+            background-color: rgb(231, 250, 250);width: 280px;
         }
         #se4{
-            background-color: rgb(250, 236, 255);width: 180px;
+            background-color: rgb(250, 236, 255);width: 280px;
         }
         #se5{
-            background-color: rgb(251, 251, 232);width: 180px;
+            background-color: rgb(251, 251, 232);width: 280px;
         }
         #se6{
-            background-color: rgb(255, 246, 240);width: 180px;
+            background-color: rgb(255, 246, 240);width: 280px;
         }
         #Top{
             font-size: 28px;
@@ -149,6 +153,7 @@
             display: flex;
             justify-content:space-around;
             padding: 50px;
+            text-decoration: none;
         }
         .Foot{
             display:flex;
@@ -164,7 +169,7 @@
             display:grid;
             grid-template-columns: repeat(3,1fr);
             padding-left: 200px;
-            gap:70px;
+            gap: 15px;
             align-items: center;
         }
         .sne{
@@ -175,6 +180,19 @@
             font-style: bold;
            
         }
+        .Resource-Content{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .Res-cont{
+            background-color:rgb(238, 251, 255);
+            width: 400px;
+            text-align: left;
+        }
+        .Video-play{
+            padding: 50px;
+        }
+        
         
     </style>
     <nav>
@@ -229,7 +247,7 @@
     <ul class="P2">
        <div class="Text-Align"><li><div id="Top">Tool<strong> built for people.</strong></div><br>
         <div class="Sen">Whether you want to edit your Google Docs,<br>resolve Jira issues,or collabrate over Zoom.<br><br></div>
-        <div class="Sen">Circle has 100+ integrations with tools you <br>already use and love.</li><br><div class="Start">Get Started free</div></div>
+        <div class="Sen">Circle has 100+ integrations with tools you <br>already use and love.</li><br><div class="Start"><a style="text-decoration: none; ">Get Started free</a></div></div>
         <div><li><img width="75%" src="Image/Screenshot_20240123-205338_Drive.jpg"></li></div>
     </ul>
 </div>
@@ -242,12 +260,12 @@
 </div>
 <div class="AWARDS">
     
-        <div id="se1"><img width="120px" src="Image/img1.png"><p class="sne"><strong>Catergory leader in<br> 2022</strong></p></div>
-        <div id="se2"><img width="90px"  src="Image/img2.png"><p class="sne"><strong>Champion in survey tool 2022</strong></p></div>
-        <div id="se3"><img width="100px" src="Image/img3.png"><p class="sne"><strong>Most loved SaaS tools in 2021</strong></p></div>
-        <div id="se4"><img width="100px" src="Image/img4.png"><p class="sne"><strong>Market leader across 18 categories</strong></p></div>
-        <div id="se5"><img width="100px" src="Image/img5.png"><p class="sne"><strong>Most recommended tool in 2021</strong></p></div>
-        <div id="se6"><img width="100px" src="Image/img6.png"><p class="sne"><strong>Top performer spring <br>2021</strong></p></div>
+        <div id="se1"><img width="220px" src="Image/img1.png"><p class="sne"><strong>Catergory leader in<br> 2022</strong></p></div>
+        <div id="se2"><img width="160px"  src="Image/img2.png"><p class="sne"><strong>Champion in survey tool 2022</strong></p></div>
+        <div id="se3"><img width="200px" src="Image/img3.png"><p class="sne"><strong>Most loved SaaS tools in 2021</strong></p></div>
+        <div id="se4"><img width="200px" src="Image/img4.png"><p class="sne"><strong>Market leader across 18 categories</strong></p></div>
+        <div id="se5"><img width="200px" src="Image/img5.png"><p class="sne"><strong>Most recommended tool in 2021</strong></p></div>
+        <div id="se6"><img width="200px" src="Image/img6.png"><p class="sne"><strong>Top performer spring <br>2021</strong></p></div>
 
 </div>
 <hr>
@@ -257,15 +275,70 @@
 <div>
     <p class="Part"><strong>Easy </strong>for beginners.<strong>Powerful</strong> for experts.</p>
 </div>
+<div class="Our-Promise">
+    <h6 class="Prom"><strong>OUR PROMISE</strong></h6></div>
+    <div>
+        <ul class="P2">
+           <div class="Text-Align"><li><div id="Top">See how <br>customers<br><strong> drive impact</strong></div><br>
+            <br><div class="Start"><a style="text-decoration: none; ">Get Started free</a></div></div>
+            <div><li><video class="Video-play" width="520" height="240" controls><source src="/Video/Straight Outta Nowhere_ Scooby Doo Meets Courage the Cowardly Dog _ Warner Bros. Entertainment.mp4" type="video/mp4"></video></li></div>
+            
+        </ul>
+    </div>
+
 <hr>
 <div>
     <ul class="P2">
        <div class="Text-Align"><li><div id="Top">Looking for a <strong>solution</strong><br>for your business?</div><br>
         <div class="Sen">Check out Sogolytics enterprise feedback and<br>experience management platform.<br><br></div>
-        <br><div class="Start">Learn more</div></div>
+        <br><div class="Start"><a style="text-decoration: none; color: white;" href="#">Learn more</a></div></div>
         <div><li><img width="80%" style="padding-left: 50px;" src="Image/Laptop.avif"></li></div>
     </ul>
 </div>
 <hr>
+<div class="GT">
+    <p class="de"><strong>RESOURCES</strong></p>
+</div>
+<div>
+    <p class="Part"><strong>Stay </strong>in the<strong> know</strong></p>
+</div>
+<div class="Res">
+    <ul>
+        <li class="Res-cont"> 
+            <img  width="100%" src="Image/Res-img1 (2).jpg"><p><strong>Excepteur sint occaecat cupidatat<br> 
+                non proident</strong><br></p><div class="Sen"><p>Nemo enim ipsam voluptatem quia
+                voluptas sit aspernatur aut odit aut fugit,
+                sed quia consequuntur magni dolores eos<br><br>
+                Neque porro quisquam est, qui dolorem<br> 
+                ipsum quia dolor sit amet, consectetur, 
+                adipisci veli</p></div><br>
+                 <div class="RM">
+        <a class="Start" href="#">Read more</a>
+    </div>
+        </li>
+        <li class="Res-cont">
+            <img width="100%" src="Image/Res-img2 (1).webp"><p><strong>Quis nostrum exercitationem ullam<br> 
+                corporis suscipit laboriosam</strong><br></p><div class="Sen"><p>Ut enim ad minima veniam, quis nostrum 
+                <br>exercitationem ullam corporis suscipit 
+                laboriosam<br><br>nisi ut aliquid ex ea commodi consequatur 
+                autem vel eum iure reprehenderit</p></div><br>
+                <div class="RM">
+                    <a class="Start" href="#">Read more</a>
+                </div>
+        </li>
+        <li class="Res-cont">
+            <img width=100% src="Image/Res-img3 (1).png"><p><strong>Lorem ipsum dolor sit amet,<br> 
+                consectetur adipiscing elit.</strong><br></p><div class="Sen"><p>Coluptatem accusantium doloremque<br> 
+                    laudantium, totam rem aperiam<br><br>
+                    Aaque ipsa quae ab illo inventore veritatis et<br> 
+                    quasi architecto beatae vitae dicta sunt <br>
+                    explicabo.</p>
+                <div class="RM">
+                    <a class="Start" href="#">Read more</a>
+                </div>
+        </li>
+    </ul>
+
+</div>
 </body>
 </html>
