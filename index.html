@@ -8,7 +8,7 @@
 </head>
 <body>
     <style>
-        ul{
+        .Heading{
             display: flex;
             justify-content: space-evenly;
             list-style: none;
@@ -42,10 +42,9 @@
             width:98px;
             border-radius: 5px;
             text-decoration: none;
-
         }
         div{
-            text-decoration: none;
+            text-decoration: none;  
             font-size: 22px;
             text-align: center;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -151,6 +150,7 @@
             text-align: left;
         }
         .P2{
+            list-style: none;
             display: flex;
             justify-content:space-around;
             padding: 50px;
@@ -185,7 +185,7 @@
             display: flex;
             justify-content: space-evenly;
         }
-        .Res-cont{
+        .Res-cont{      
             background-color:rgb(238, 251, 255);
             width: 400px;
             text-align: left;
@@ -193,11 +193,38 @@
         .Video-play{
             padding: 50px;
         }
+        .foot{
+           margin: 0%;
+           padding: 0%;
+           background-color: rgb(120, 121, 123);
+           text-decoration: none;
+
+       }
+       .space{
+           margin-top: 10px;
+       }
+       .row{
+          display: flex;
+          justify-content: space-evenly;
+          padding-left: 500px;
+       }
+       .fc h3{
+         font-size: 15px;
+         color: rgb(189, 229, 255);
+       }
+       .ele{
+            list-style: none;
+           text-decoration: none;
+           text-align:start;
+           font-size: 15px;
+           margin-top: 15px;
+           color:rgb(255, 255, 255);
+       }
         
         
     </style>
     <nav>
-        <ul>
+        <ul class="Heading">
             <li ><a class="sites" href="#">Features</a></li>
             <li><a class="sites"href="#">Pricing</a></li>
             <li ><a class="sites" href="#">Testimonials</a></li>
@@ -208,10 +235,11 @@
             <strong><li id="Log"><a id="Style" href="#">Login</a></li></strong>
         </ul>
     </nav><br>
+    <div class="Prim">
     <div class="bg">
         <h1 >A powerful online engagement tool <br>that's intuitive and simple to use.</h1>
     <p id="FC">With stellar one-click report and unmatched support,see how<br>Circle will make a difference in your business.</p>
-    </div>
+    </div></div>
     <div class="gt">
         <a class="Start" href="#">Get started free ></a>
     </div>
@@ -225,7 +253,7 @@
         <p class="Part">Trusted by <strong>100,000+ customers</strong> in 90+ countries</p>
     </div>
     <nav>
-        <ul>
+        <ul class="Heading">
             <li><img width="135px" src="Image/Capgemini_logo-removebg-preview.png"></li>
             <li><img width="95px"  src="Image/YamahaLogo-removebg-preview.png"></li>
             <li><img width="125px"  src="Image/png-transparent-tech-mahindra-new-hd-logo-removebg-preview.png"></li>
@@ -304,7 +332,7 @@
     <p class="Part"><strong>Stay </strong>in the<strong> know</strong></p>
 </div>
 <div class="Res">
-    <ul>
+    <ul class="Heading">
         <li class="Res-cont"> 
             <img  width="100%" src="Image/Res-img1 (2).jpg"><p><strong>Excepteur sint occaecat cupidatat<br> 
                 non proident</strong><br></p><div class="Sen"><p>Nemo enim ipsam voluptatem quia
@@ -340,6 +368,45 @@
         </li>
     </ul>
 
+    <footer class="foot">
+        <div class="cont">
+        <div class="row">
+            <div class="fc">
+                <h3>Products</h3>
+                <ul class="ele">
+                    <li class="space">Delta</li>
+                    <li class="space">Sigma</li>
+                    <li class="space">Zeta</li>
+                    <li class="space">Alpha</li>
+                    <li class="space">Acumen</li>
+                </ul>
+            </div>
+            <div class="fc">
+                <h3>Resources</h3>
+                <ul class="ele">
+                    <li class="space">Help</li>
+                    <li class="space">Training Videos</li>
+                    <li class="space">Webinars</li>
+                    <li class="space">Request a Demo</li>
+                    <li class="space">Create Surveys</li>
+                    <li class="space">Quiz Maker</li>
+                </ul>
+            </div>
+            <div class="fc">
+                <h3>Company</h3>
+                <ul class="ele">
+                    <li class="space">About Us</li>
+                    <li class="space">Careers</li>
+                    <li class="space">Team</li>
+                    <li class="space">Contact Us</li>
+        
+                </ul>
+            </div>
+        </div>
+        <hr>
+        </div>
+    
+    </footer>
 </div>
 </body>
 </html>
